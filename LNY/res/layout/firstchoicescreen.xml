@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >    
+	    
+	    
+	<Button
+	android:layout_width="200dp"
+	android:layout_height="60dp"
+	android:text="Need Help Now"
+	android:textSize="20dp"
+	android:layout_centerHorizontal="true"
+	android:id="@+id/StudentButton"  
+	android:layout_marginTop="30dp"
+	android:layout_below="@+id/TutorButton"
+	/>
+
+	<Button
+	    android:id="@+id/TutorButton"
+	    android:layout_width="200dp"
+	    android:layout_height="60dp"
+	    android:layout_alignLeft="@+id/StudentButton"
+	    android:layout_alignParentTop="true"
+	    android:layout_marginTop="144dp"
+	    android:text="Become a Tutor"
+	    android:textSize="20dp" />
+
+	<TextView
+	    android:id="@+id/ChoiceText"
+	    android:layout_width="200dp"
+	    android:layout_height="60dp"
+	    android:layout_alignLeft="@+id/TutorButton"
+	    android:layout_alignParentTop="true"
+	    android:layout_marginTop="68dp"
+	    android:text="something" />
+	
+</RelativeLayout>
